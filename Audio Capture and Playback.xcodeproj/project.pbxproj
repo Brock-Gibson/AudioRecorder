@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B698746225C521C0017B0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B698745225C521C0017B0EB /* AppDelegate.swift */; };
-		5B698748225C521C0017B0EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B698747225C521C0017B0EB /* ViewController.swift */; };
+		5B698748225C521C0017B0EB /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B698747225C521C0017B0EB /* AudioViewController.swift */; };
 		5B69874B225C521C0017B0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B698749225C521C0017B0EB /* Main.storyboard */; };
 		5B69874E225C521C0017B0EB /* Audio_Capture_and_Playback.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B69874C225C521C0017B0EB /* Audio_Capture_and_Playback.xcdatamodeld */; };
 		5B698750225C521D0017B0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B69874F225C521D0017B0EB /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		5B698742225C521C0017B0EB /* Audio Capture and Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Capture and Playback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B698745225C521C0017B0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B698747225C521C0017B0EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B698747225C521C0017B0EB /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		5B69874A225C521C0017B0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B69874D225C521C0017B0EB /* Audio_Capture_and_Playback.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Audio_Capture_and_Playback.xcdatamodel; sourceTree = "<group>"; };
 		5B69874F225C521D0017B0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5B698745225C521C0017B0EB /* AppDelegate.swift */,
-				5B698747225C521C0017B0EB /* ViewController.swift */,
+				5B698747225C521C0017B0EB /* AudioViewController.swift */,
 				5B698749225C521C0017B0EB /* Main.storyboard */,
 				5B69874F225C521D0017B0EB /* Assets.xcassets */,
 				5B698751225C521D0017B0EB /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B698748225C521C0017B0EB /* ViewController.swift in Sources */,
+				5B698748225C521C0017B0EB /* AudioViewController.swift in Sources */,
 				5B698746225C521C0017B0EB /* AppDelegate.swift in Sources */,
 				5B69874E225C521C0017B0EB /* Audio_Capture_and_Playback.xcdatamodeld in Sources */,
 			);
