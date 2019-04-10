@@ -113,14 +113,24 @@ class AudioViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPla
     }
     
     func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
-        print("Audio Play Decode Error")
+        alertNotifyUser(message: "Audio Record Decode Error")
     }
     
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
     }
     
     func audioRecorderEncodeErrorDidOccur(_ recorder: AVAudioRecorder, error: Error?) {
-        print("Audio Record Encode Error")
+        alertNotifyUser(message: "Audio Record Encode Error")
+    }
+    
+    func alertNotifyUser(message: String) {
+        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel) {
+            (alertAction) -> Void in
+            print("OK selected")
+        })
+        
+        self.present(alert, animated: true, completion: nil)
     }
 }
 
