@@ -21,8 +21,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <toolbarItems>
-                        <barButtonItem title="record" image="record" id="uyc-3E-U93"/>
-                        <barButtonItem title="play" image="play" id="Qx6-hx-1u5"/>
+                        <barButtonItem title="record" image="record" id="uyc-3E-U93">
+                            <connections>
+                                <action selector="recordPressed:" destination="BYZ-38-t0r" id="8es-XF-v0e"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="play" image="play" id="Qx6-hx-1u5">
+                            <connections>
+                                <action selector="playPressed:" destination="BYZ-38-t0r" id="dQn-zY-abw"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="5F4-W6-hxR"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
